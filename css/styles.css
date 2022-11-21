@@ -1,7 +1,21 @@
-h1 {
-    color: green;
+/**
+color principal: #3F52B5; azul claro
+color secundario: #FFA441; anaranjado
+color terciario: #FFE641; amarillo
+**/
+/**
+body {
+    background-color: #FFA441;
+}
+**/
+
+
+nav a:hover {
+    background-color: #3F52B5;
+    transition: 0.3s;
+    cursor: pointer; 
 }
 
-.my-class {
-    color: pink;
+a {
+    color: #FFE641;
 }

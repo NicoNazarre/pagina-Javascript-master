@@ -635,14 +635,14 @@ for (let i=0; i<10; i++) {
 
 // let ingresarNumero = parseInt(prompt("Ingresar Numero"));
 
-
+/*
 let ingresarNumero = parseInt(prompt("Ingresar Numero"));
 for ( let i=0; i<100; i++ ) {
     let resultado = ingresarNumero * i;
     console.log(ingresarNumero + " x " + i + " = " + resultado);
 }
 
-
+*/
 
 
 /*
