@@ -497,14 +497,14 @@ for (let i=-10; i<0; i++) {
 */
 
 
-
+/*
 
 for ( let i=0; i<10; i++) {
     console.log("esta es la " + i + " vez que pasa por esta linea")
 }
 
 
-
+*/
 // 0 a 9
 /*
 for (let i=0; i<10; i++) {
@@ -803,3 +803,9 @@ if (entrada == "ana") {
 
 /*
 */
+
+console.log("Clase 5 - funciones")
+
+function mensajeMostrar() {
+    console.log("Este mensaje lo ejecuta la función");
+}

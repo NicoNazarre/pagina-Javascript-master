@@ -19,3 +19,8 @@ nav a:hover {
 a {
     color: #FFE641;
 }
+
+.galeria {
+    background-color: #FFA441;
+    padding: 20px 0px 0px 0px;
+}
