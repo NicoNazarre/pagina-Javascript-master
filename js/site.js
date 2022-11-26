@@ -72,17 +72,18 @@ console.log("Hola " + nombreIngresado);
 
 
 
+
+const valorPorDia = 100;
+
+let montoIngresado = prompt("Ingrese los días que quiere reservar (u$s " + valorPorDia + " por día)");
+
+let totalDolares =  Number(montoIngresado) * valorPorDia;
+
+console.log("El costo de la reserva es de " + parseFloat(totalDolares).toFixed(2) + " dóalres americanos.");
 /*
-const valorDolar = 41.30;
-
-let montoIngresado = prompt("Ingrese el monto a comprar dólares ($U " + valorDolar + " c/u)");
-
-let totalDolares =  Number(montoIngresado) / valorDolar;
-
-alert("Usted a compado " + totalDolares + " dóalres americanos.");
+console.log ("Usted a compado " + totalDolares + " dóalres americanos.");
 console.log( "Usted a compado " + totalDolares + " dóalres americanos." );
 
-alert("Usted a compado " + parseFloat(totalDolares).toFixed(2) + " dóalres americanos.");
 console.log( "Usted a compado " + parseFloat(totalDolares).toFixed(2) + " dóalres americanos." );
 */
 
@@ -496,7 +497,7 @@ for (let i=-10; i<0; i++) {
 }
 */
 
-
+/*
 /*
 
 for ( let i=0; i<10; i++) {
@@ -803,9 +804,10 @@ if (entrada == "ana") {
 
 /*
 */
-
+/*
 console.log("Clase 5 - funciones")
 
 function mensajeMostrar() {
     console.log("Este mensaje lo ejecuta la función");
 }
+*/
