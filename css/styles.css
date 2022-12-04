@@ -9,11 +9,15 @@ body {
 }
 **/
 
-
+a:hover {
+    color: #FFA441 !important;
+    transition: 0.8s !important;
+    cursor: pointer !important;
+}
 
 nav a:hover {
     background-color: #3F52B5;
-    transition: 0.3s;
+    transition: 0.8s;
     cursor: pointer; 
 }
 
@@ -25,3 +29,4 @@ a {
     background-color: #FFA441;
     padding: 20px 0px 0px 0px;
 }
+

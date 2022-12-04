@@ -35,3 +35,10 @@ let montoIngresado = prompt("Ingrese los días que quiere reservar (u$s " + valo
 let totalReserva =  Number(montoIngresado) * valorPorDia;
 
 console.log("El costo de la reserva es de " + parseFloat(totalReserva).toFixed(2) + " dóalres americanos.");
+
+const nombres  = ['Rita', 'Pedro', 'Miguel', 'Ana', 'Vanesa'];
+const nombresB = nombres.slice (0, 999);
+nombresB.reverse ();
+
+console.log (nombresB)
+
