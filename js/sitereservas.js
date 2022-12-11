@@ -1,4 +1,6 @@
 
+/* CAPTURAS DE ENTRADAS INGRESADAS POR EL USUARIO */
+/* NOTIFICACION DE RESULTADOS EN FORMA DE SALIDA */
  function capturar(){
     //console.log("capturando");
     function Persona(nombre,apellido,edad){
@@ -24,12 +26,6 @@
     console.log(baseDatos);
     document.getElementById("tabla").innerHTML += '<tbody><td>'+nuevoSujeto.nombre+'</td><td>'+nuevoSujeto.apellido+'</td><td>'+nuevoSujeto.edad+'</td></tbody>';
  };
-
- const menorDeEdad = edadCapturar.find(persona => persona.edad < 18);
-
-console.log("Find: ")
-console.log(menorDeEdad)
-
 
 
 
