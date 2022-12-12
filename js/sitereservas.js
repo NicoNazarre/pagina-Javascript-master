@@ -1,7 +1,7 @@
 
 /* CAPTURAS DE ENTRADAS INGRESADAS POR EL USUARIO */
 /* NOTIFICACION DE RESULTADOS EN FORMA DE SALIDA */
- function capturar(){
+function capturar(){
     //console.log("capturando");
     function Persona(nombre,apellido,edad){
         this.nombre=nombre;
@@ -28,6 +28,28 @@
  };
 
 
+ class Excursion {
+    constructor(nombre, precio) {
+        this.nombre = nombre;
+        this.precio = precio;
+    }
+}
+
+/** FUNCIONES DE ORDEN SUPERIOR */
+//* Filter:
+const LopezMendez = new Excursion("Lopez Mendez", 100);
+const LogoaAzul = new Excursion("Logoa Azul", 60);
+const Abrau = new Excursion("Abrau", 50);
+const Dentista = new Excursion("Dentista", 120);
+
+const arrayExcursion = [LopezMendez, LogoaAzul, Abrau, Dentista];
+
+console.log("Excursiones disponibles: ");
+console.log(arrayExcursion);
+const arrayExcursionMenos100 = arrayExcursion.filter(Excursion => Excursion.precio < 100);
+
+console.log("filter: ");
+console.log(arrayExcursionMenos100);
 
 
 
