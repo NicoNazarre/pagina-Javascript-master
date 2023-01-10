@@ -1,5 +1,5 @@
  
- /* ALGORISMO UTILIZANDO UN CICLO (FOR Y WHILE) */
+ /* ALGORITMO UTILIZANDO UN CICLO (FOR Y WHILE) */
  /* FOR */
  for (let numero= 1; numero<=6; numero++){
     if(numero == 5){

@@ -19,8 +19,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="../css/styles.css">
-</head>
-<body>
+
+    <style>
+      .dark {
+          background-color: black;
+          color: white;
+      }
+  </style>
+
+  </head>
+<body class="dark">
     <header>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
@@ -51,6 +59,11 @@
             </div>
           </nav>
         </header>
+        
+        <div class="d-grid gap-2">
+          <button id="botonFondo" class="btn btn-primary" type="button">Fondo oscuro/claro</button>     
+        </div>
+        
 
 <section class="galeria">
         
@@ -104,6 +117,62 @@
   </div>
  
         </section>
+
+        
+        <section class="galeria">
+        
+
+          <div class="row" style="
+            margin-right: 0px;
+            margin-left: 0px;
+            "
+            >
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="../multimedia/galeria actividades/img cuadradas/tortuga con buzo.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+            
+                <img
+                  src="../multimedia/galeria actividades/img altas/agua verde alto.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+            
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="../multimedia/galeria actividades/img altas/susurro alto.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+            
+                <img
+                  src="../multimedia/galeria actividades/img cuadradas/mostrando estrellas.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+            
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="../multimedia/galeria actividades/img cuadradas/estrella grande.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+            
+                <img
+                  src="../multimedia/galeria actividades/img altas/mirando al mar.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+           
+                  </section>
+
+                  
 <!-- Remove the container if you want to extend the Footer to full width. 
 <div class="container my-5">
     -->
@@ -118,7 +187,7 @@
             <!-- Grid column -->
             <div class="col-md-2">
               <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-white">Home</a>
+                <a href="../index.html" class="text-white">Home</a>
               </h6>
             </div>
             <!-- Grid column -->
@@ -147,15 +216,7 @@
             </div>
             <!-- Grid column -->
   
-            <!-- Grid column -->
-            <!--
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-white">Contact</a>
-              </h6>
-            </div>
-            -->
-            <!-- Grid column -->
+
           </div>
           <!-- Grid row-->
         </section>
@@ -221,9 +282,13 @@
   </div>
   <!-- End of .container -->
 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <script src="../js/galeria.js"></script>
+
+
     </body>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
  
 </html>

@@ -49,3 +49,8 @@
     -webkit-overflow-scrolling: touch;
   }
 
+  .dark {
+    background-color: black;
+    color:white;
+  }
+
